@@ -1,4 +1,4 @@
-# Chatbot DGFiP — Assistant de recherche de fiches fiscales
+# Chatbot DGFiP — Recherche de fiches fiscales
 
 ---
 
@@ -63,5 +63,17 @@ Le système agit comme une **FAQ intelligente**, reposant sur un moteur sémanti
 3. Bash : pip install -r requirements.txt
 4. Bash : python chatbot_dgfip_hierarchique.py
 5. Bash : Posez votre question
+
+---
+
+### TECHNIQUE.md
+
+Ce document décrit en détail le fonctionnement du moteur de recherche sémantique du chatbot DGFiP. Il présente :
+
+- la logique de prétraitement des fiches et de filtrage thématique,
+- l'utilisation du modèle SBERT pour l'encodage sémantique,
+- le calcul de similarité cosinus pour le classement des réponses,
+- des suggestions concrètes d'amélioration pour les data scientists,
+- et des pistes sérieuses de mise en production pour un usage en administration publique.
 
 ---

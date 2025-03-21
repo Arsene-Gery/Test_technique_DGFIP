@@ -36,7 +36,7 @@ Le système agit comme une **FAQ intelligente**, reposant sur un moteur sémanti
    - Fallback automatique sur toutes les fiches si aucun mot-clé ne matche
 
 3. **Encodage sémantique (SBERT)** :
-   - Utilisation du modèle 🇫🇷 [`dangvantuan/sentence-camembert-large`](https://huggingface.co/dangvantuan/sentence-camembert-large)
+   - Utilisation du modèle [`dangvantuan/sentence-camembert-large`](https://huggingface.co/dangvantuan/sentence-camembert-large)
    - Chaque fiche est transformée en vecteur dense
 
 4. **Recherche par similarité cosinus** :

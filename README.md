@@ -59,10 +59,12 @@ Le système agit comme une **FAQ intelligente**, reposant sur un moteur sémanti
 ### **Exécution locale (zéro infrastructure)** :
 
 1. Téléchargez le .zip dgfip-chatbot-local dans votre Desktop
-2. Bash : cd Desktop/dgfip-chatbot-local
-3. Bash : pip install -r requirements.txt
-4. Bash : python chatbot_dgfip_hierarchique.py
-5. Bash : Posez votre question
+2. Téléchargez les datasets "info_particulier_impot.csv" et "questions_fiches_fip.csv"
+3. Changer le chemin absolu des datasets dans le notebook "chatbot_dgfip_hierarchique.ipynb" : FICHES_PATH = "..." ; QUESTIONS_PATH = "..."
+4. Bash : cd Desktop/dgfip-chatbot-local
+5. Bash : pip install -r requirements.txt
+6. Bash : python chatbot_dgfip_hierarchique.py
+7. Bash : Posez votre question
 
 ---
 

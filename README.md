@@ -68,7 +68,7 @@ Le système agit comme une **FAQ intelligente**, reposant sur un moteur sémanti
 
 ### TECHNIQUE.md
 
-Ce document décrit en détail le fonctionnement du moteur de recherche sémantique du chatbot DGFiP. Il présente :
+Ce document décrit en détail le fonctionnement du moteur de recherche sémantique du chatbot DGFiP :
 
 - la logique de prétraitement des fiches et de filtrage thématique,
 - l'utilisation du modèle SBERT pour l'encodage sémantique,

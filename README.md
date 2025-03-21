@@ -7,7 +7,7 @@ Il repose sur des techniques de traitement automatique du langage (NLP) pour enr
 
 ---
 
-## Objectif
+### Objectif
 
 Simuler un assistant intelligent capable de répondre à des interrogations d’usagers concernant :
 - les déclarations de revenus,
@@ -18,7 +18,7 @@ Le système agit comme une **FAQ intelligente**, reposant sur un moteur sémanti
 
 ---
 
-## Fonctionnement de l'algorithme
+### Fonctionnement de l'algorithme
 
 ### Données
 - **113 fiches fiscales** extraites de l’espace particulier du site des impôts (`info_particulier_impot.csv`)
@@ -45,7 +45,7 @@ Le système agit comme une **FAQ intelligente**, reposant sur un moteur sémanti
 
 ---
 
-## Technologies utilisées
+### Technologies utilisées
 
 | Technologie             | Usage |
 |-------------------------|-------|
